@@ -1,0 +1,19 @@
+{
+    "Students": [
+        {
+            "id": 1,
+            "name":"Phan Thanh Lực",
+            "province":"Quảng Trị"
+        },
+        {
+            "id": 2,
+            "name":"A Thi",
+            "province":"Kon Tum"
+        },
+        {
+            "id": 3,
+            "name":"A Quang",
+            "province":"Kon Tum"
+        }
+    ]
+}

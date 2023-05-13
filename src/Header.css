@@ -1,0 +1,106 @@
+* {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  .container__header{
+    margin-top: 0px;
+    margin-left: -8px;
+    width: 1600px;
+    height: 40px;
+    background: #9be506;
+  }
+  .container__header .container__contac {
+    display: flex;
+    height: 40px;
+  }
+  .container__header .container__contac .contac__phone, .container__header .container__contac .contac__email, .container__header .container__contac .contac__icon {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container__header .container__contac .contac__phone i, .container__header .container__contac .contac__email i, .container__header .container__contac .contac__icon i {
+    padding-left: 5px;
+  }
+  .container__header .container__contac .container__right .shopping {
+    display: flex;
+    margin-left: 500px;
+  }
+  .container__header .container__contac .container__right .shopping li {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+  }
+  .container__header .container__contac .container__right .shopping li .menu__item {
+    line-height: 25px;
+    display: none;
+    position: absolute;
+    left: -30%;
+  }
+  .container__header .container__contac .container__right .shopping li:hover .menu__item {
+    display: block;
+  }
+  
+  .comtainer_slide {
+    display: flex;
+    width: 1600px;
+    height: 86px;
+    background: rgba(1, 26, 27, 0.533);
+    margin-left: -7.6px;
+  }
+  .comtainer_slide .container__menu {
+    display: flex;
+  }
+  .comtainer_slide .container__menu .__menu_ {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .comtainer_slide .__menu__two_level {
+    top: 15.5%;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    left: 15%;
+    display: none;
+    border: 1px solid orangered;
+    border-radius: 8px;
+    background: #000000;
+  }
+  .comtainer_slide .__menu__two_level h6 {
+    color: orangered;
+  }
+  .comtainer_slide .__menu__two_level p {
+    color: #ffffff;
+  }
+  .comtainer_slide .__menu_grid:hover .__menu__two_level {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .comtainer_slide .container__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+  }
+  .comtainer_slide .container__logo img {
+    width: 144px;
+    height: 65px;
+  }
+  .comtainer_slide .container_icon {
+    display: flex;
+    margin-left: 180px;
+  }
+  .comtainer_slide .container_icon .__menu_ button {
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    color: #ffffff;
+  }/*# sourceMappingURL=demo.css.map */

@@ -37,16 +37,16 @@ const Add = () => {
                 <Form onSubmit={handelForm}>
                     <FormGroup >
                     <FaSearch></FaSearch>
-                        <Label>Title</Label>
+                        <Label style={{color:"white"}}>Title</Label>
                         <Input type='text' name='title' onChange={handelInput}></Input>
                     </FormGroup>
                     <FormGroup>
                     <FaHome></FaHome>
-                        <Label>Price</Label>
+                        <Label style={{color:"white"}}>Price</Label>
                         <Input type='text' name='price' onChange={handelInput}></Input>
                     </FormGroup>
                     <FormGroup>
-                        <Label>Image</Label>
+                        <Label style={{color:"white"}}>Image</Label>
                         <Input type='text' name='image' onChange={handelInput}></Input>
                     </FormGroup>
                     <Button className='btn btn-success' type='submit'>Add</Button>

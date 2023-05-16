@@ -1,0 +1,14 @@
+.message-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .message-item {
+    margin-bottom: 10px;
+  }
+  
+  .right {
+    margin-left: 600px;
+  }
+  
+  

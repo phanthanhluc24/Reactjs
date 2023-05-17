@@ -70,6 +70,7 @@
     border: 1px solid orangered;
     border-radius: 8px;
     background: #000000;
+    z-index: 9999;
   }
   .comtainer_slide .__menu__two_level h6 {
     color: orangered;

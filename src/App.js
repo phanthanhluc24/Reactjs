@@ -1,6 +1,7 @@
 import React, { Component ,useState} from 'react'
 import { Route,Routes,Router, } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import { Routers } from './Components/Pages/Demos/Routers/Routers'
 // import Home from './Components/Pages/Home'
 // import Edit from './Components/Pages/Edit'
 // import Add from './Components/Pages/DemoAPI/Add'
@@ -13,15 +14,15 @@ import { Link } from 'react-router-dom'
 // import Caculator from './Components/Pages/MiniTest/Caculator'
 // import StudentData from './Components/Pages/MiniTest/StudentData'
 // import ApiData from './Components/Pages/MiniTest/ApiData'
-import Login from './Components/Pages/Chat/Login'
-import { Chat } from './Components/Pages/Chat/Chat'
+// import Login from './Components/Pages/Chat/Login'
+// import { Chat } from './Components/Pages/Chat/Chat'
 export default function App () {
-  const[showChat,setShowChat]=useState(false)
-  const[name,setName]=useState("")
-  const getName=(name)=>{
-    setName(name)
-    setShowChat(true)
-  }
+  // const[showChat,setShowChat]=useState(false)
+  // const[name,setName]=useState("")
+  // const getName=(name)=>{
+  //   setName(name)
+  //   setShowChat(true)
+  // }
     return (
       <div>
        {/* <Routes>
@@ -37,9 +38,9 @@ export default function App () {
       {/* <StudentData></StudentData> */}
       {/* <ApiData></ApiData> */}
 
-      {!showChat && <Login callback={getName}></Login>}
-      {showChat &&  <Chat name={name}></Chat>}
-     
+      {/* {!showChat && <Login callback={getName}></Login>}
+      {showChat &&  <Chat name={name}></Chat>} */}
+      <Routers/>
       </div>
      
     )
